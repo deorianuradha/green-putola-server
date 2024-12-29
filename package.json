@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "deorianuradha",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cloudinary": "2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-jwt": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "p-limit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2"
+  }
+}
